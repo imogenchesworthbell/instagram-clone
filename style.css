@@ -1,0 +1,41 @@
+#instalogin {
+    font-size: 30px;
+    font-family: cursive; 
+    color: black;
+
+}
+
+#loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    flex-direction: column;
+
+}
+
+#feedlogo {
+    display: flex;
+    justify-content: flex-start;
+    font-family: cursive; 
+
+}
+
+#feedphotos{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+
+}
+
+#goToProfile{
+    display: flex;
+    justify-content: flex-end;
+    flex: wrap;
+    
+}
+
+#profilephotos{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
